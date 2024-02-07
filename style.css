@@ -78,7 +78,7 @@ html {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   width: 93%;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .cur{
@@ -343,7 +343,7 @@ body {
 }
 
 .left-section-top-heading-2 span {
-  color: #0a66c2;
+  color: #378FE9;
 }
 
 .left-section-top-para-3 {
@@ -367,7 +367,7 @@ body {
 }
 
 .left-section-top-para-img-3 h3:hover {
-  color: #0a66c2;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -392,10 +392,16 @@ body {
   background: var(--hover);
 }
 
-.left-section-second-section {
-  background-color: #fff;
+.left-section-second-section-box{
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  overflow: hidden;
+}
+
+.left-section-second-section {
+  background-color: #fff;
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  /* border-radius: 8px; */
 }
 
 .left-section-second-1,
@@ -442,7 +448,7 @@ body {
 .left-section-second-1b a {
   font-size: 13px;
   text-decoration: none;
-  color: #0a66c2;
+  color: var(--primary-color);
   transition: hover 0.3s;
 }
 
@@ -591,7 +597,7 @@ body {
 }
 
 .media {
-  color: #498fe9;
+  color: #378FE9;
 }
 
 .event {
@@ -663,7 +669,7 @@ body {
   transition: color 0.3s;
 }
 .center-section-smash-top-para-1:hover {
-  color: #0a66c2;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -727,7 +733,7 @@ body {
 }
 
 .smash-post-heading:hover {
-  color: #0a66c2;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -750,7 +756,7 @@ body {
   padding: 5px;
 }
 .smash-post-about a {
-  color: #0a66c2;
+  color: var(--primary-color);
   text-decoration: none;
   transition: textdecoration 0.5s;
 }
@@ -773,7 +779,7 @@ body {
 
 .comment:hover {
   text-decoration: underline;
-  color: #0a66c2;
+  color: var(--primary-color);
 }
 
 .center-section-smash-post-bottom-box {
@@ -807,7 +813,7 @@ body {
 .last-comment {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 /* Smash Code Post Start End*/
@@ -863,7 +869,7 @@ body {
   font-weight: 600;
   padding: 10px 25px;
   color: #fff;
-  background: #0a66c2;
+  background: var(--primary-color);
   border-radius: 25px;
   cursor: pointer;
 }
@@ -1059,8 +1065,8 @@ body {
   font-size: 13px;
   font-weight: 600;
   padding: 8px 20px;
-  color: #0a66c2;
-  border: 2px solid #0a66c2;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
   background: #fff;
   border-radius: 25px;
   margin: 10px auto 20px auto;
@@ -1080,7 +1086,7 @@ body {
 }
 .links a:hover{
   text-decoration: underline;
-  color: #0a66c2;
+  color: var(--primary-color);
 }
 
 .links-1 a{
@@ -1092,7 +1098,7 @@ body {
 }
 
 .links:hover{
-  color: #0a66c2;
+  color: var(--primary-color);
 }
 
 .privacy{
@@ -1129,7 +1135,7 @@ body {
 .linkedin-text{
   padding-top: 2px;
   font-size: 13px;
-  color: #0a66c2;
+  color: var(--primary-color);
   font-weight: 700;
 }
 
