@@ -10,6 +10,7 @@
   .right-section {
     flex: 0 0 26%;
     margin-right: 10px;
+    margin-left: 0px;
     height: 430px;
   }
 }

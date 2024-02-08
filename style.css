@@ -247,6 +247,7 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 /* Left Section Start */
@@ -517,11 +518,12 @@ body {
 }
 
 /* Center Section Start */
+
 .center-section {
   flex: 1;
   height: 100vh;
   color: #fff;
-  padding: 20px 10px 20px 20px;
+  padding: 20px 0px 20px 20px;
 
 }
 
@@ -919,7 +921,8 @@ body {
   margin-top: 20px;
   max-height: 100vh;
   border-radius: 10px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  margin-left: 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 75px;
