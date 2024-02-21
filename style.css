@@ -159,6 +159,8 @@ body {
   cursor: pointer;
 }
 
+
+
 .center-icon-p-active {
   font-size: 12px;
   font-weight: lighter;
@@ -184,6 +186,16 @@ body {
   position: relative;
   transition: color 0.5s;
   text-align: center;
+}
+
+.center-icon-none a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+.center-icon-none a:hover{
+  color: rgba(0, 0, 0, 1);
+
 }
 
 .center-icons-top {
@@ -261,7 +273,6 @@ body {
   margin-left: 18px;
 }
 
-/* Left Section End */
 
 .left-section-top-main {
   background: #fff;
@@ -516,6 +527,9 @@ body {
 .left-section-last:hover {
   background: var(--hover);
 }
+
+/* Left Section End */
+
 
 /* Center Section Start */
 
