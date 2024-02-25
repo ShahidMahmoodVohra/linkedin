@@ -1099,6 +1099,7 @@ body {
   text-decoration: none;
   color: slategrey;
   transition: color .4s;
+  padding-left: 5px;
 
 }
 .links a:hover{

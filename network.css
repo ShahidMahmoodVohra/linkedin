@@ -42,7 +42,7 @@
 /* left-network Start */
 
 .left-network {
-  flex: 0 0 90%;
+  flex: 0 0 73%;
   /* width: 320px; */
   min-height: 100vh;
   margin-top: 20px;
@@ -69,8 +69,13 @@
   font-weight: 500;
 }
 
-.left-network-content-box{
+.left-network-content-box {
   padding: 10px;
+  cursor: pointer;
+}
+
+.left-network-content-box:hover {
+  background: var(--color-hover);
 }
 
 .left-network-sub-L i {
@@ -84,9 +89,42 @@
   margin-left: 10px;
 }
 
+.left-network-sub-LL span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 0px;
+
+}
+
 .left-network-sub-R {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
+}
+.left-network-top-img {
+  height: 200px;
+  width: 250px;
+  text-align: center;
+}
+.left-network-top-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.linkss{
+  text-align: center;
+}
+
+.fa-angle-up{
+  padding-left: 8px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.left-network-sub-L span .ml0{
+  margin-left: 0;
+
 }
 
 /* left-network End */
