@@ -4,6 +4,8 @@
     "linkss",
     "PKRO",
     "Rolustech",
-    "Xeven"
-  ]
+    "Xeven",
+    "xmark"
+  ],
+  "liveServer.settings.port": 5501
 }

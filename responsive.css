@@ -7,12 +7,16 @@
     margin: 0 auto;
   }
 
-  .right-section {
+  .main-network{
+    margin: 10px 26%;
+  }
+
+  /* .right-section {
     flex: 0 0 26%;
     margin-right: 10px;
     margin-left: 0px;
     height: 430px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1600px) {
@@ -21,6 +25,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .main-network{
+    margin: 10px auto;
   }
 }
 
