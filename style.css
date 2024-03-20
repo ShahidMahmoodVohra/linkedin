@@ -113,6 +113,7 @@ body {
   width: 100vw;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   padding: 3px 0;
+  padding-top: 3px;
 }
 
 .left-icons-box {
@@ -169,7 +170,7 @@ body {
 .center-icon-active {
   content: "";
   position: absolute;
-  top: 49px;
+  top: 47px;
   left: -6px;
   width: 70px;
   border-bottom: 2px solid #191919;
@@ -924,7 +925,8 @@ body {
   flex: 0 0 25.5%;
   background-color: #fff;
   margin-top: 20px;
-  max-height: 100vh;
+  max-height: 400px;
+  height: 100%;
   border-radius: 10px;
   /* margin-right: 20px; */
   margin-left: 20px;
@@ -935,7 +937,7 @@ body {
 }
 
 .right-section-top-box-1 {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .right-section-top-box {
@@ -1027,7 +1029,7 @@ body {
 }
 
 .right-section-bottom {
-  margin: 20px auto;
+  margin: 18px auto;
   background: #fff;
   padding: 5px 10px;
   border-radius: 8px;
