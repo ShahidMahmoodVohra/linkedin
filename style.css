@@ -83,7 +83,8 @@ html {
   margin-left: 10px;
 }
 
-.cur {
+.cur,
+.cursor-pointer {
   cursor: pointer;
 }
 body {
